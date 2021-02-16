@@ -1,0 +1,10 @@
+{
+    "/data/*": {
+        "target": "http://codequiz.azurewebsites.net/data",
+        "secure": false,
+        "loglevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {"^/data" : ""}
+
+    }
+}
